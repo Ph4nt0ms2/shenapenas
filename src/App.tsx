@@ -114,37 +114,37 @@ const StyledTab = styled.div<StyledTabProps>`
 const abilities = [
   {
     name: "Barreira de Ki",
-    img: "https://henriquebicudo.github.io/onlyshen/Shen_files/Shen_Passive.png",
-    videoMp4: "https://henriquebicudo.github.io/onlyshen/Shen_files/ability_0098_P1.mp4",
+    img: "https://ph4nt0ms2.github.io/shenapenas//Shen_files/Shen_Passive.png",
+    videoMp4: "https://ph4nt0ms2.github.io/shenapenas//Shen_files/ability_0098_P1.mp4",
     description: "Shen ganha uma barreira de Ki que absorve dano.",
     key: "P",
   },
   {
     name: "Ataque Crepúsculo",
-    img: "https://henriquebicudo.github.io/onlyshen/Shen_files/ShenQ.png",
-    videoMp4: "https://henriquebicudo.github.io/onlyshen/Shen_files/ability_0098_Q1.mp4",
+    img: "https://ph4nt0ms2.github.io/shenapenas//Shen_files/ShenQ.png",
+    videoMp4: "https://ph4nt0ms2.github.io/shenapenas//Shen_files/ability_0098_Q1.mp4",
     description:
       "Shen chama sua espada espiritual para atacar com ela, causando dano com base na Vida máxima do alvo.",
     key: "Q",
   },
   {
     name: "Refúgio Espiritual",
-    img: "https://henriquebicudo.github.io/onlyshen/Shen_files/ShenW.png",
-    videoMp4: "https://henriquebicudo.github.io/onlyshen/Shen_files/ability_0098_W1.mp4",
+    img: "https://ph4nt0ms2.github.io/shenapenas//Shen_files/ShenW.png",
+    videoMp4: "https://ph4nt0ms2.github.io/shenapenas//Shen_files/ability_0098_W1.mp4",
     description: "Shen cria uma área de proteção que bloqueia ataques inimigos.",
     key: "W",
   },
   {
     name: "Corrida das Sombras",
-    img: "https://henriquebicudo.github.io/onlyshen/Shen_files/ShenE.png",
-    videoMp4: "https://henriquebicudo.github.io/onlyshen/Shen_files/ability_0098_E1.mp4",
+    img: "https://ph4nt0ms2.github.io/shenapenas//Shen_files/ShenE.png",
+    videoMp4: "https://ph4nt0ms2.github.io/shenapenas//Shen_files/ability_0098_E1.mp4",
     description: "Shen avança em uma direção, provocando inimigos no caminho.",
     key: "E",
   },
   {
     name: "Manter a União",
-    img: "https://henriquebicudo.github.io/onlyshen/Shen_files/ShenR.png",
-    videoMp4: "https://henriquebicudo.github.io/onlyshen/Shen_files/ability_0098_R1.mp4",
+    img: "https://ph4nt0ms2.github.io/shenapenas//Shen_files/ShenR.png",
+    videoMp4: "https://ph4nt0ms2.github.io/shenapenas//Shen_files/ability_0098_R1.mp4",
     description: "Shen teleporta para um aliado, protegendo-o com uma barreira.",
     key: "R",
   },
@@ -233,7 +233,7 @@ function App() {
         <div
           className="container"
           style={{
-            backgroundImage: `url('https://henriquebicudo.github.io/onlyshen/Shen_files/${backgroundImages[backgroundIndex]}')`,
+            backgroundImage: `url('https://ph4nt0ms2.github.io/shenapenas//Shen_files/${backgroundImages[backgroundIndex]}')`,
             backgroundSize: "cover",
             backgroundPosition: "center",
             width: "100%",
@@ -246,7 +246,7 @@ function App() {
             color: "#fff",
             padding: "20px",
             borderRadius: "10px",
-            cursor: "url(''https://henriquebicudo.github.io/onlyshen/Shen_files/cursor.png') auto"
+            cursor: "url(''https://ph4nt0ms2.github.io/shenapenas//Shen_files/cursor.png') auto"
           }}
           onClick={changeBackground}
         >          
